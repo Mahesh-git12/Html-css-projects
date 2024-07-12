@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            text-align: center;
+            width: 100%;
+            background-color: rgb(12, 87, 208);
+            position:absolute;
+            top:0px;
+            left: 0px;
+            color: white;
+               
+        }
+        .foot{
+            background-color:rgb(12, 87, 208);
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            /* text-align: center; */
+            left: 0px;
+            color:white
+
+        }
+        .foot p{
+            margin: 30px;
+            text-align: center;
+        }
+        .content{
+            width: 870px;
+            height: 460px;
+            border-style: solid;
+            position: absolute;
+            /* margin: 80px; */
+            top:180px;
+            left: 450px;
+            box-shadow: 0px 0px 20px  gray;
+            border-color: aliceblue;
+        }
+        .container1{
+            width: 380px;
+            height: 390px;
+            border-style: solid;
+            position: absolute;
+            /* margin: 80px; */
+            top:218px;
+            left: 480px;
+            box-shadow: 0px 0px 10px  gray;
+            border-color: aliceblue;
+        }
+        .container2{
+            width: 380px;
+            height: 390px;
+            border-style: solid;
+            position: absolute;
+            /* margin: 80px; */
+            top:218px;
+            left: 900px;
+            box-shadow: 0px 0px 10px gray;
+            border-color: aliceblue;
+        }
+        .container1 h1{
+            padding-left: 30px;
+            font-size: 30px;
+        }
+        body{
+            background-color: black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1> Age and Distance Converter </h1>
+        </div>
+        
+    </header>
+    <section style="color: white;">
+        <div style="text-align: center;">
+        <div class="content">
+
+        </div>
+        <div class="container1" id="click">
+            <h1> Age calculator</h1>
+            Date of birth:<br><br><input type="date" style="padding:5px;width: 290px;"><br><br>
+            <button style="background-color:rgb(12, 87, 208);color: white;font-size:15px;padding:7px;" onclick="change()"> Calculate age</button>
+            <div style="padding-left:10px ;">
+            <p> Age in years:<p>
+            <p> Age in months:<p>
+            <p> Age in hours:<p>    
+            <p> Age in minutues:<p>
+            <p> Age in seconds:<p>         
+            </div>  
+
+
+        </div>
+        <div class="container2" id="click1">
+            <h1> Distance Converter</h1>
+            Distance:<br><br><input type="text" style="padding:5px;width: 290px;"><br><br>
+            Unit:<br><br><input type="text" placeholder="Kilometers" style="padding:5px;width: 290px;"><br><br>
+            <button style="background-color:rgb(12, 87, 208);color: white;font-size:15px;padding:7px;" onclick="change1()"> Convert</button>
+            <div style="padding-left:10px ;">
+            <p> Distance in Kilometers:<p>
+            <p> Distance in Meters:<p>
+            <p> Distance in inches:<p>    
+             
+
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <p> 2023 age and distance calculator.All rights are reserved</p>
+
+        </div>
+    </footer>
+    <script>
+        function change(){
+             document.getElementById("click").innerHTML="Thank you bitch"
+            //  click.style.paddingTop="100px"
+             click.style.fontSize="50px"
+             click.style.textAlign="center"
+            //  click.style.border="1px solid red"
+        }
+        function change1(){
+            document.getElementById("click1").innerHTML="Fuck you biatchh"
+            click1.style.paddingTop="20px"
+        }
+       
+
+    </script>
+
+</body>
+
+</html>
