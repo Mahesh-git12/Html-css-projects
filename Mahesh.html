@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefSpot Restaurants</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="Mahesh.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">ChefSpot</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li> 
+            <li><a href="#services">Services</a></li>
+            <li><a href="#chefs">Our Chefs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3><b>More than fast....</b></h3>
+            <h1>Calm your never ending <span>hunger</span>Be The Fastest <br />In Delivering <br />Your <span>Food</span></h1>
+            <p> .</p>
+            <p> .</p>
+            <p> .</p>
+            <p> .</p>
+
+                <a href="#contact" class="button">Contact Here</a>
+        </div>
+        <div class="home-img">
+            <img src="Cheff.png" alt="">
+        </div>
+        
+    </section>
+    <!-- Menu section -->
+<!-- Menu section -->
+<section class="menu" id="menu">
+    <div class="heading">
+        <p>Menu</p>
+        <h2>Tasty menu of the week</h2>
+        <i class="bx bx-right-arrow-alt show-more-icon" onclick="toggleAdditionalItems()"></i>
+    </div>
+    <!-- Container for menu items -->
+    <div class="menu-container">
+        <!-- Original three menu items -->
+        <div class="box">
+            <div class="box-img">
+                <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" alt="">
+            </div>
+            <h2>Cheese Pizza</h2>
+            <span>₹250</span>
+            <i class='bx bx-cart-alt cart-button' data-target="#home"></i>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="burger.png" alt="">
+            </div>
+            <h2>Burger Combo</h2>
+            <span>₹450</span>
+            <i class='bx bx-cart-alt cart-button' data-target="#home"></i>
+        </div>
+        
+        <div class="box" id="bucket-chicken">
+            <div class="box-img">
+                <img src="https://lh3.googleusercontent.com/Bk5q08Ia5CqAhJ-fB4_9hNv-MrQiyKp6fvtNe9q9TonUKnLlm8k3pdsgLv9EiHhvnLdiygYkRDQI_hinyS-8Grkitw=w1200-rw" alt="">
+            </div>
+            <h2>Bucket Chicken</h2>
+            <span>₹799</span>
+            <i class='bx bx-cart-alt cart-button' data-target="#home"></i>
+        </div>
+    </div>
+    <!-- Additional items (initially hidden) -->
+    <div class="additional-items hidden">
+        <!-- New menu items -->
+        <div class="box">
+            <div class="box-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTP-9f_k8RJehffrpo4GM-H8X_dOQCcONsD9K1OixjGQ&s" alt="">
+            </div>
+            <h2>Wraps</h2>
+            <span>₹150</span>
+            <i class='bx bx-cart-alt cart-button' data-target="#home"></i>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="https://www.cactuslanguage.com/wp-content/uploads/2022/08/drinks-around-the-world.jpg" alt="">
+            </div>
+            <h2>Beverages</h2>
+            <span>₹200</span>
+            <i class='bx bx-cart-alt cart-button' data-target="#home"></i>
+        </div>
+        <!-- Add more new items as needed -->
+    </div>
+</section>
+
+    <!-- Services -->
+    
+    <section class="services" id="services">
+        <div class="heading">
+            <p>What We Serve</p>
+            <h2>Your Favourite Food <br> Delivery Partner</h2>
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <img src="Order.png" alt="">
+                <h2>Easy To Order</h2>
+                
+            </div>
+            <div class="box">
+                <img src="Ship.png" alt="">
+                <h2>Fastest Delivery</h2>
+
+            </div>
+            <div class="box">
+                <img src="Deliver.png" alt="">
+                <h2>Best Quality</h2>
+                
+        </div>
+    </section>
+    <!-- Chef section -->
+    <section class="chefs" id="chefs">
+        <div class="heading">
+            <p>Our Chefs</p>
+            <h2>Top Customer rated Chef's</h2>
+        </div>
+        <div class="chefs-container">
+            <div class="chef-box">
+                <img src="Chef1.png" alt="">
+                <div class="text">
+                    <h2>John Watson</h2>
+                    
+                    <a href="#" class="button">Hire Now</a>
+                </div>
+            </div>
+            <div class="chef-box">
+                <img src="Chef2.png" alt="">
+                <div class="text">
+                    <h2>Alexa Gomez</h2>
+                    
+                    <a href="#" class="button">Hire Now</a>
+                </div>
+            </div>
+            <div class="chef-box">
+                <img src="Chef3.jpg" alt="">
+                <div class="text">
+                    <h2>Richard</h2>
+                    
+                    <a href="#" class="button">Hire Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <p>Have Any Question?</p>
+            <h2>Contact Us</h2>
+            
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Enter Your Email...">
+                <!--<select >
+                    <option value="vellore"> vellore</option>
+                    <option value="Chennai"> Chennai</option>
+                    <option value="Chittoor"> Chittoor</option>
+                    <option value="Coimbatoor"> Coimbatoor</option> 
+    
+                </select>-->
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Message Here... "></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+
+            <div class="footer-contact">
+    
+              <h4 class="contact-title">Contact Us</h4>
+    
+              <p class="contact-text">
+                Feel free to contact and reach us !!
+              </p>
+    
+            </div>
+    
+            <div class="footer-form">
+    
+              <p class="form-text">
+                Subscribe our newsletter for more update & news !!
+              </p>
+    
+              <form action="" class="form-wrapper">
+                <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+    
+                <button type="submit" class="btn btn-secondary">Subscribe</button>
+              </form>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright">
+              &copy; <a href="">Mahesh-ChefSpot</a>. All rights reserved
+            </p>
+    
+            <ul class="footer-bottom-list">
+    
+              <li>
+                <a href="#" class="footer-bottom-link">Privacy Policy</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-bottom-link">Term & Condition</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-bottom-link">FAQ</a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </div>
+    
+      </footer>
+    
+    <!-- Copyright --
+    <div class="copyright">
+        <p>&#169; Mahesh-ChefSpot All Rights Reserved.</p>
+    </div>-->
+ 
+    <!-- Link To Js -->
+    <script src="Mahesh.js"></script>
+</body>
+</html>
+    
